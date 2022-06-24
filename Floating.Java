@@ -1,3 +1,10 @@
+/*
+@author: Arnab Kumar Hoodati
+*/
+
+
+//Java Program to Multiply Two Floating-Point Numbers
+
 class Floating {
     public static void main(String[] args)
     {
