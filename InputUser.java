@@ -1,3 +1,9 @@
+/*
+@author: Arnab Kumar Hoodati
+*/
+
+
+
 // Java Program for Get input from user
 import java.util.Scanner;
 class InputUser {
