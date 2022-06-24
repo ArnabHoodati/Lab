@@ -1,3 +1,9 @@
+/*
+@author: Arnab Kumar Hoodati
+*/
+
+
+//Java Program to Multiply two Numbers
 class Multi{
     public static void main(String args[]){
   
