@@ -1,6 +1,12 @@
+/*
+@author: Arnab Kumar Hoodati
+*/
+
+//Leap Year or not
+
 public class LeapYear {
     public static void main(String[] args) {
-        int year = 2016;
+        int year = 2016;        //Define Variable
         boolean leap = false;
         if (year % 400 == 0)
         {
