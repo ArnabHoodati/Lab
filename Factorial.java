@@ -9,10 +9,10 @@ public class Factorial {
 	public static void main(String[] args) {
 		int n,i,f=1;			//Declaring Variable
 		System.out.println("Enter a number");
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);		//input From User
 		n=sc.nextInt();
 		if (n<=0)
-		System.out.println("Enter a positive integer number");		//input 
+		System.out.println("Enter a positive integer number");		
 		else 
 		{
 		    for(i=2;i<=n;i++)		//logic
