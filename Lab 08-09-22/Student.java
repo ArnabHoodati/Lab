@@ -1,6 +1,11 @@
 package Wrapper.Lab;
 
 import java.util.Scanner;
+/*
+ * @author Arnab Kumar Hoodati
+ * 
+ * Wrappers in java
+ */
 
 public class Student {
 long studentId;
@@ -8,28 +13,31 @@ char studentGrade;
 double monthlyFees, Fees;
 boolean isScholarshipEligible;
 
-	//this method will calculate fees exempted
+	//this method will calculate Fees exempted
 		public void calculateFeesStructure(Long studentId,Character studentGrade,Double monthlyFees,Boolean isScholarshipEligible) {
 			if (studentId!=0 && studentGrade=='A' && isScholarshipEligible==true) {
-				Double fees = (monthlyFees -monthlyFees *10/100);//logic
+				Double Fees = (monthlyFees -monthlyFees *10/100);//logic
 				System.out.println("Grade:"+studentGrade);
-				System.out.println("Monthly fees:"+monthlyFees);
-				System.out.println("10% of fees is exempted, the calculated fees is : "+fees);
+				System.out.println("Monthly Fees:"+monthlyFees);
+				System.out.println("10% of Fees is exempted, the calculated Fees is : "+Fees);
 			}
 			else if (studentId!=0 && studentGrade=='B' && isScholarshipEligible==true) {
-				Double fees = (monthlyFees -monthlyFees *8/100);//logic
-				System.out.println("Grade:"+studentGrade);			System.out.println("Monthly fees:"+monthlyFees);
-				System.out.println("8% of fees is exempted, the calculated fees is : "+fees);
+				Double Fees = (monthlyFees -monthlyFees *8/100);//logic
+				System.out.println("Grade:"+studentGrade);			
+				System.out.println("Monthly Fees:"+monthlyFees);
+				System.out.println("8% of Fees is exempted, the calculated Fees is : "+Fees);
 			}
 			else if (studentId!=0 && studentGrade=='C' && isScholarshipEligible==true) {
-				Double fees = (monthlyFees -monthlyFees *6/100);//logic
-				System.out.println("Grade:"+studentGrade);			System.out.println("Monthly fees:"+monthlyFees);
-				System.out.println("6% of fees is exempted, the calculated fees is : "+fees);
+				Double Fees = (monthlyFees -monthlyFees *6/100);//logic
+				System.out.println("Grade:"+studentGrade);			
+				System.out.println("Monthly Fees:"+monthlyFees);
+				System.out.println("6% of Fees is exempted, the calculated Fees is : "+Fees);
 			}
 			else if (studentId!=0 && studentGrade=='D' && isScholarshipEligible==true) {
-				Double fees = (monthlyFees -monthlyFees *4/100);//logic
-				System.out.println("Grade:"+studentGrade);			System.out.println("Monthly fess:"+monthlyFees);
-				System.out.println("4% of fees is exempted, the calculated fees is : "+fees);
+				Double Fees = (monthlyFees -monthlyFees *4/100);//logic
+				System.out.println("Grade:"+studentGrade);		
+				System.out.println("Monthly fess:"+monthlyFees);
+				System.out.println("4% of Fees is exempted, the calculated Fees is : "+Fees);
 			}
 			else {
 				System.out.println("Grade:"+studentGrade);	
@@ -49,7 +57,7 @@ boolean isScholarshipEligible;
 			System.out.println("Both Are Equal");
 		}
 	}
-	//create a method to validate fees
+	//create a method to validate Fees
 	public void validateFees(Double Fees) {
 		if(Fees.isInfinite()) {//logic
 			System.out.println("Fees is infinite");
@@ -77,8 +85,8 @@ boolean isScholarshipEligible;
 		    
 		    System.out.println("Validating");
 		    System.out.println("Enter fess :");
-		    double fees=sc.nextDouble();
-		    s.validateFees(fees);
+		    double Fees=sc.nextDouble();
+		    s.validateFees(Fees);
 			
 
 		}
