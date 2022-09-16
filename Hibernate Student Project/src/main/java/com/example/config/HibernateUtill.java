@@ -1,9 +1,13 @@
 package com.example.config;
+/*
+ *@author Arnab Kumar Hoodati 
+ * 
+ */
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateUtill {
+public class HibernateUtil {
 
 	private static SessionFactory sessionFactory;
 	static { 
