@@ -32,10 +32,10 @@ public class App
     			break;
     		//called a method for delete student details	
     		case 4: dao.deleteStudent();
-    		break;
+    		    break;
     		//exit
     		case 5: System.exit(0);
-    		break;
+    		    break;
     		//if you given wrong input
     		default: System.out.println("Invalid Choice");
     		}
