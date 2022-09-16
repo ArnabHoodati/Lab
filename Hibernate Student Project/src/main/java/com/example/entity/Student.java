@@ -1,5 +1,8 @@
 package com.example.entity;
-
+/*
+ *@author Arnab Kumar Hoodati 
+ * 
+ */
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
