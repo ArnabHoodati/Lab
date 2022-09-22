@@ -19,7 +19,7 @@ import lombok.Setter;
 public class Book {
 
 	@Id	//primary key
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)	 //auto increment id
 	private int bid;
 	
 	@Column(length = 30, nullable = false)
