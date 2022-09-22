@@ -1,6 +1,5 @@
 package com.book.entity;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -19,8 +18,8 @@ import lombok.Setter;
 public class Book {
 
 	@Id	//primary key
-	@GeneratedValue(strategy = GenerationType.AUTO)	 //auto increment id
-	//decalre variables
+	@GeneratedValue(strategy = GenerationType.AUTO)	//auto increment id
+	//declare variables
 	private int bid;
 	
 	@Column(length = 30, nullable = false)
@@ -35,7 +34,7 @@ public class Book {
 	@Column(length = 10, nullable = false)
 	private double price;
 	
-	@Column(length = 30, nullable = false)
+	@Column(length = 4, nullable = false)
 	private int year;
 
 }
