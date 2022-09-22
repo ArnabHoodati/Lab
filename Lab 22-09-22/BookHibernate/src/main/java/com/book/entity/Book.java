@@ -20,6 +20,7 @@ public class Book {
 
 	@Id	//primary key
 	@GeneratedValue(strategy = GenerationType.AUTO)	 //auto increment id
+	//decalre variables
 	private int bid;
 	
 	@Column(length = 30, nullable = false)
