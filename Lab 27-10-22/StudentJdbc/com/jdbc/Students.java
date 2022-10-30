@@ -25,7 +25,7 @@ public class Students {	//main class
 		pst = conn.prepareStatement(sql);//preparing connection
 		pst.setInt(1, studentid );	//set value
 		pst.setString(2, studentName);	//set value
-        pst.execute();	//execute the query
+        	pst.execute();	//execute the query
 		conn.close();	//close connection
 		  System.out.println("value inserted successfully");
 		}
