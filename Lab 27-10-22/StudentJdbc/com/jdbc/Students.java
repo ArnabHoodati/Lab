@@ -1,5 +1,8 @@
 package com.jdbc;
-
+/*
+ *@author Arnab Kumar Hoodati 
+ * 
+ */
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.Scanner;
